@@ -53,7 +53,7 @@ const settingStore = {
   isDelete: true,
   bfe_id: null,
   isSubtitle: true,
-  downloadingSize: 5
+  downloadingSize: 8
 }
 
 export {

@@ -27,7 +27,7 @@
             <a-icon slot="suffix" type="folder" style="color: rgba(0,0,0,.45)" />
           </a-input>
         </div>
-        <a-slider v-if="item.type === 'slider'" :max="5" :min="1" v-decorator="item.decorator" />
+        <a-slider v-if="item.type === 'slider'" :max="15" :min="1" v-decorator="item.decorator" />
         <a-input v-if="item.type === 'input'" v-decorator="item.decorator" :placeholder="item.placeholder"></a-input>
         <a-switch v-if="item.type === 'switch'" v-decorator="item.decorator" />
         <div v-if="item.type === 'status'">
