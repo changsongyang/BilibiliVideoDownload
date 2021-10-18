@@ -4,6 +4,13 @@
   <blockquote>PC端下载bilibili视频</blockquote>
 </div>
 
+<div align="center">
+  <a href="https://github.com/blogwy/BilibiliVideoDownload/issues"><img src="https://img.shields.io/github/issues/blogwy/BilibiliVideoDownload" alt="issues"></a>
+  <a><img src="https://img.shields.io/github/forks/blogwy/BilibiliVideoDownload" alt="forks"></a>
+  <a><img src="https://img.shields.io/github/stars/blogwy/BilibiliVideoDownload" alt="stars"></a>
+  <a><img src="https://img.shields.io/github/license/blogwy/BilibiliVideoDownload" alt="license"></a>
+</div>
+
 ## 注意
 
 * 软件不支持付费视频和地区限制视频，可能会报错
@@ -37,7 +44,9 @@
 * [x] 删除下载记录
 * [ ] 暂停/恢复下载
 
-## 运行
+## 开发
+
+**提前自备梯子，因为electron electron-builder等依赖项需要从GitHub下载**
 
 ```bash
 git clone https://github.com/blogwy/BilibiliVideoDownload.git
@@ -51,6 +60,11 @@ yarn electron:serve
 yarn electron:build
 ```
 ## 版本
+
+v3.1.5 `2021-10-08`
+
+1. 修复无法删除的bug [issues/41](https://github.com/blogwy/BilibiliVideoDownload/issues/41)
+2. 新增回车键确认在主页
 
 v3.1.4 `2021-09-24`
 
@@ -119,4 +133,5 @@ Node.js重构，以前的在vuejs分支
 * [Vue.js](https://vuejs.org/)
 * [Ant Design Vue](https://antdv.com/docs/vue/introduce-cn/)
 * [got](https://github.com/sindresorhus/got)
+* [bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect)
 
