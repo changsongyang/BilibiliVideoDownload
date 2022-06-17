@@ -63,6 +63,10 @@ yarn electron:build
 ```
 ## 版本
 
+v3.3.2-custom `2022-06-17`
+1. 调整设置最大下载数15，默认值6。
+2. 调整视频下载质量规则
+
 v3.3.2 `2022-06-04`
 
 1. 修复下载视频的音频码率错误(issues/76)[https://github.com/blogwy/BilibiliVideoDownload/issues/76]，现在音频码率修改为当前最高音频码率。
