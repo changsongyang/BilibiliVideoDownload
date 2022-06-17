@@ -49,7 +49,7 @@
             <FolderOutlined style="color: rgba(0,0,0,.45)" />
           </template>
         </a-input>
-        <a-slider v-if="item.type === 'slider'" :max="5" :min="1" v-model:value="modelRef[item.name]" />
+        <a-slider v-if="item.type === 'slider'" :max="15" :min="1" v-model:value="modelRef[item.name]" />
         <a-switch v-if="item.type === 'switch'" v-model:checked="modelRef[item.name]" />
       </a-form-item>
     </a-form>

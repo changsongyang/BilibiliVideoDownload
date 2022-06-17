@@ -64,7 +64,7 @@ const settingData = {
   isDanmaku: true,
   isFolder: true,
   isCover: true,
-  downloadingMaxSize: 5
+  downloadingMaxSize: 6
 }
 
 const settingRules = {
