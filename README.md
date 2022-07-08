@@ -63,9 +63,10 @@ yarn electron:build
 ```
 ## 版本
 
-v3.3.2-custom `2022-06-17`
-1. 调整设置最大下载数15，默认值6。
-2. 调整视频下载质量规则
+v3.3.3 `2022-07-02`
+
+1. 修复关闭软件事件不正常错误(issues/88)[https://github.com/blogwy/BilibiliVideoDownload/issues/88]
+2. 下载列表右键添加播放视频功能(issues/86)[https://github.com/blogwy/BilibiliVideoDownload/issues/86]
 
 v3.3.2 `2022-06-04`
 
